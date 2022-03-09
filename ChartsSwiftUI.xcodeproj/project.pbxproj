@@ -7,18 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C202A8DB27D77E0E00549E4F /* LineChartShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = C202A8DA27D77E0E00549E4F /* LineChartShape.swift */; };
+		C296149527D7978200BF76BF /* BarChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C296149427D7978200BF76BF /* BarChartView.swift */; };
+		C296149727D7979500BF76BF /* BarChartShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = C296149627D7979500BF76BF /* BarChartShape.swift */; };
 		C2DF60DA27D7726100BB1F54 /* ChartsSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2DF60D927D7726100BB1F54 /* ChartsSwiftUIApp.swift */; };
 		C2DF60DC27D7726100BB1F54 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2DF60DB27D7726100BB1F54 /* ContentView.swift */; };
 		C2DF60DE27D7726100BB1F54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2DF60DD27D7726100BB1F54 /* Assets.xcassets */; };
 		C2DF60E127D7726100BB1F54 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2DF60E027D7726100BB1F54 /* Preview Assets.xcassets */; };
+		C2DF60E827D7727200BB1F54 /* LineChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2DF60E727D7727200BB1F54 /* LineChartView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C202A8DA27D77E0E00549E4F /* LineChartShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineChartShape.swift; sourceTree = "<group>"; };
+		C296149427D7978200BF76BF /* BarChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChartView.swift; sourceTree = "<group>"; };
+		C296149627D7979500BF76BF /* BarChartShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChartShape.swift; sourceTree = "<group>"; };
 		C2DF60D627D7726100BB1F54 /* ChartsSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChartsSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2DF60D927D7726100BB1F54 /* ChartsSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartsSwiftUIApp.swift; sourceTree = "<group>"; };
 		C2DF60DB27D7726100BB1F54 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C2DF60DD27D7726100BB1F54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C2DF60E027D7726100BB1F54 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C2DF60E727D7727200BB1F54 /* LineChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineChartView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +43,8 @@
 		C2DF60CD27D7726100BB1F54 = {
 			isa = PBXGroup;
 			children = (
+				C296149427D7978200BF76BF /* BarChartView.swift */,
+				C296149627D7979500BF76BF /* BarChartShape.swift */,
 				C2DF60D827D7726100BB1F54 /* ChartsSwiftUI */,
 				C2DF60D727D7726100BB1F54 /* Products */,
 			);
@@ -53,6 +63,8 @@
 			children = (
 				C2DF60D927D7726100BB1F54 /* ChartsSwiftUIApp.swift */,
 				C2DF60DB27D7726100BB1F54 /* ContentView.swift */,
+				C2DF60E727D7727200BB1F54 /* LineChartView.swift */,
+				C202A8DA27D77E0E00549E4F /* LineChartShape.swift */,
 				C2DF60DD27D7726100BB1F54 /* Assets.xcassets */,
 				C2DF60DF27D7726100BB1F54 /* Preview Content */,
 			);
@@ -139,6 +151,10 @@
 			files = (
 				C2DF60DC27D7726100BB1F54 /* ContentView.swift in Sources */,
 				C2DF60DA27D7726100BB1F54 /* ChartsSwiftUIApp.swift in Sources */,
+				C296149527D7978200BF76BF /* BarChartView.swift in Sources */,
+				C202A8DB27D77E0E00549E4F /* LineChartShape.swift in Sources */,
+				C296149727D7979500BF76BF /* BarChartShape.swift in Sources */,
+				C2DF60E827D7727200BB1F54 /* LineChartView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
